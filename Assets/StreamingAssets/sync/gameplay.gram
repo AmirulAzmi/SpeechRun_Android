@@ -1,0 +1,5 @@
+#JSGF V1.0;
+grammar gameplay;
+
+public <command> = stop | <dir>;
+<dir> = left | right | jump | slide | pause | resume | retry | home;
